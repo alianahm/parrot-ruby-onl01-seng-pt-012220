@@ -5,5 +5,8 @@ def parrot
   phrase = "Squawk!"
 end
 
-def parrot
-  puts "Squawk!"
+def parrot (phrase = "Squawk!")
+  chirp = phrase
+  puts (phrase)
+  chirp
+end
